@@ -10,7 +10,6 @@ const [larguraDaTela, setLarguraDaTela] = useState<number>(document.documentElem
 
     useEffect(() => {
         function definirFormatodoHeader() {
-            console.log('esta função aconteceu!: ' + document.documentElement.clientWidth)
             if (document.documentElement.clientWidth < 768) {
                 setAbriuNoMobile(true);
             } else {
