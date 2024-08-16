@@ -5,6 +5,9 @@ import HeaderMobile from './HeaderMobile';
 
 const Header: React.FC = () => {
 
+    //o seguinte código cuida de selecionar entre menu desktop
+    //e hamburguer, dependendo do tamanho da tela
+
 const [abriuNoMobile, setAbriuNoMobile] = useState<boolean>(false);
 const [larguraDaTela, setLarguraDaTela] = useState<number>(document.documentElement.clientWidth)
 
@@ -36,10 +39,10 @@ const [larguraDaTela, setLarguraDaTela] = useState<number>(document.documentElem
         
     }, []); 
 
-
+    //return
 
     return (
-        <div className='z-50 relative'>
+        <div className='z-50 relative '>
             {abriuNoMobile ? <HeaderMobile larguraDaTela={larguraDaTela} /> : <HeaderDesktop />}
         </div>
 

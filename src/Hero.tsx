@@ -4,7 +4,7 @@ import React from 'react';
 
 const Hero: React.FC = () => {
     return (
-        <div id='hero' className='relative w-full p-20 py-40 flex flex-col gap-4 text-center overflow-x-hidden'>
+        <div id='hero' className='relative w-full p-20 py-32 flex flex-col gap-4 text-center overflow-hidden'>
             <h1 className='z-40 text-5xl text-sky-200 font-medium '>Emoção às Alturas</h1>
             <h2 className='z-40 text-2xl text-sky-100 font-medium'>Salte com a Altitude Máxima</h2>
             <div className='z-40 flex gap-4'>
