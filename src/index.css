@@ -8,11 +8,11 @@
     /* border: 1px solid yellow; */
 }
 
-h1 {
+/* h1 {
     font-family: "Bebas Neue", sans-serif;
-}
+} */
 
-h2, h3, h4, h5, h6, a, button {
+h1, h2, h3, h4, h5, h6, a, button {
     font-family: "Montserrat", sans-serif;
 }
 
@@ -24,10 +24,11 @@ p {
     transition: left 0.7s ease-in-out;
 }
 
-.hamburguer-left-padrao {
-    left: 0;
-}
-
-.hamburguer-left-alterado {
+.contorno {
+    text-shadow: 
+        1px 1px 0px #00000075, /* Right shadow */
+        -1px 1px 0px #00000071, /* Left shadow */
+        1px -1px 0px #00000080, /* Top shadow */
+        -1px -1px 0px #0000004f; /* Bottom shadow */
 
 }

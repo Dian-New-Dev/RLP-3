@@ -1,14 +1,15 @@
 import React from 'react';
 import Header from './Header'
+import Hero from './Hero';
 
 const App: React.FC = () => {
     return (
         <div>
             <Header />
-{/* 
+
             <Hero />
 
-            <Sobre />
+            {/* <Sobre />
 
             <Modalidades />
 
