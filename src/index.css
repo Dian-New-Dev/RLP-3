@@ -45,3 +45,19 @@ p {
 .gradiente {
     opacity: 1;
 }
+
+.bg-sobre {
+    background-image: url('public/assets/img/sobre.jpg')
+}
+
+.flex-start {
+    align-items: flex-start;
+}
+
+.bg-galeria {
+    background-image: url('/public/assets/img/galeria.jpg');
+}
+
+.largura-minima-padrao {
+    min-width: initial;
+}
