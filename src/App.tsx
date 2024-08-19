@@ -4,6 +4,7 @@ import Hero from './Hero';
 import Sobre from './Sobre';
 import Modalidades from './Modalidades';
 import Galeria from './Galeria';
+import Depoimentos from './Depoimentos';
 
 const App: React.FC = () => {
     return (
@@ -18,9 +19,9 @@ const App: React.FC = () => {
 
             <Galeria />
 
-            {/* <Depoimentos />
+            <Depoimentos />
 
-            <Footer /> */}
+            {/* <Footer /> */}
         </div>
     );
 };
