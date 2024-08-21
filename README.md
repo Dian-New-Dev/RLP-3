@@ -156,3 +156,8 @@ Para garantir a segurança e a qualidade da experiência, recomendamos que você
 Se você precisar cancelar ou remarcar, entre em contato conosco com pelo menos 48 horas de antecedência. Caso contrário, poderá haver uma taxa de cancelamento. Para remarcações, faremos o possível para acomodar uma nova data que funcione para você.
 
 8) Footer
+
+### Aprendizado
+
+* Uso de map para renderizar conteúdo repetitivo;
+* Alternar entre Menu Mobile e Menu Desktop via operador tenário

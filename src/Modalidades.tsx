@@ -4,7 +4,7 @@ import React from 'react';
 
 const Modalidades: React.FC = () => {
     return (
-        <div id='modalidades' className=' text-sky-100 p-8 flex flex-col gap-16 border border-gray-900 bg-gray-800/100'>
+        <div id='modalidades' className=' text-sky-100 p-8 flex flex-col gap-16 border border-gray-900 bg-gray-700/100 m-4 rounded-3xl'>
             <div id='h3' className='flex relative border-b-4 border-l-4 px-4 py-4 border-amber-600 items-start w-44'>
                 <h3 className='w-[100%] z-10 text-2xl'>Modalidades</h3>
                 <img className='border-b-4 absolute w-[80px] pl-[20px] border-amber-600 z-0 opacity-100 top-1 left-[170px]' src="public/assets/img/plane.svg" alt="Imagem de fundo na forma de um avião" />

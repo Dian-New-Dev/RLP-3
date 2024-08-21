@@ -29,7 +29,7 @@ const [contador, setContador] = useState(1);
                 <img className='absolute w-[80px] pl-[20px] z-0 opacity-100 bottom-[10px] left-[90px]' src="public/assets/img/plane.svg" alt="Imagem de fundo na forma de um avião" />
             </div>
 
-            <div className='w-full p-1 bg-amber-600 rounded-lg'>
+            <div className='w-full max-w-[600px] p-1 bg-amber-600 rounded-lg'>
 
                 <div className='w-full overflow-scroll flex snap-x snap-mandatory'>
                     <img className='snap-center w-[600px] largura-minima-padrao' src={src} alt="Fotografia de " />
