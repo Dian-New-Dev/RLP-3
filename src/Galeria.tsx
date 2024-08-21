@@ -23,7 +23,7 @@ const [contador, setContador] = useState(1);
     const src = `/public/assets/img/galeria${numeroDoSrc}.jpg`
 
     return (
-        <div id='modalidades' className=' text-gray-700 font-bold p-8 flex flex-col gap-8 bg-galeria border border-gray-90'>
+        <div id='modalidades' className=' text-gray-700 font-bold p-8 flex flex-col gap-8 border border-b-0 border-t-0 border-gray-90'>
             <div id='h3' className='flex relative border-b-4 border-l-4 px-4 py-4 border-amber-600 items-start w-44'>
                 <h3 className='w-[80%] z-10 text-2xl'>Emoções Para Toda a Vida...</h3>
                 <img className='absolute w-[80px] pl-[20px] z-0 opacity-100 bottom-[10px] left-[90px]' src="public/assets/img/plane.svg" alt="Imagem de fundo na forma de um avião" />

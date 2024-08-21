@@ -5,6 +5,7 @@ import Sobre from './Sobre';
 import Modalidades from './Modalidades';
 import Galeria from './Galeria';
 import Depoimentos from './Depoimentos';
+import Footer from './Footer';
 
 const App: React.FC = () => {
     return (
@@ -17,11 +18,15 @@ const App: React.FC = () => {
 
             <Modalidades />
 
-            <Galeria />
+            <div className='bg-galeria'>
 
-            <Depoimentos />
+                <Galeria />
 
-            {/* <Footer /> */}
+                <Depoimentos />
+
+            </div>
+
+            <Footer />
         </div>
     );
 };

@@ -56,8 +56,13 @@ p {
 
 .bg-galeria {
     background-image: url('/public/assets/img/galeria.jpg');
+    background-size: cover;
 }
 
 .largura-minima-padrao {
     min-width: initial;
+}
+
+.largura-minima-400px {
+    min-width: 300px;
 }
