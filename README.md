@@ -165,3 +165,38 @@ Se você precisar cancelar ou remarcar, entre em contato conosco com pelo menos 
 * Todo projeto começa com uma regra css de min-width: 0, pois é boa prática;
 * Contudo, em divs onde haverá carrossel ou slider vertical, deve-se
 abrir uma exceção no min-width: 0.
+* Local development server é o ambiente do node.js onde se acompanha o desenvolvimento da página em tempo real, offline. Deploy é quando se coloca a página online.
+* Passos para o deploy:
+
+
+1. Install the gh-pages package (ctrl+~ to open the terminal in VS Code)
+
+npm install gh-pages --save-dev
+
+2. In the package.json file add these lines before "build": "vite build",
+
+"predeploy": "npm run build",
+"deploy": "gh-pages -d dist",
+
+3. In the vite.config.js file add this line before plugins: [react()],
+
+base: "/YOUR_REPOSITORY_NAME",
+Change YOUR_REPOSITORY_NAME to the name of your GitHub repository.
+
+4. In terminal type
+npm run deploy
+
+fonte:https://dev.to/rashidshamloo/deploying-vite-react-app-to-github-pages-35hf
+
+5. git push
+
+* Dois problemas surgiram após fazer o deploy:
+
+1. Todas as imagens da página não estavam carregando
+
+Solução encontrada: 
+
+2. npm run dev deixou de funcionar, retornando o seguinte erro:
+
+error when starting dev server:
+Error: EPERM: operation not permitted, rmdir 'C:\Users\user\Documents\PMJ\React\RLP-3\node_modules\.vite\deps'

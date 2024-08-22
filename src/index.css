@@ -52,7 +52,7 @@ p {
 }
 
 .bg-sobre {
-    background-image: url('public/assets/img/sobre.jpg')
+    background-image: url('/public/assets/img/sobre.jpg')
 }
 
 .flex-start {
