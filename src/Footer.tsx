@@ -11,10 +11,10 @@ const Footer: React.FC = () => {
             <div className='z-10 flex gap-4 items-center p-4 w-full max-w-[1280px] mx-auto'>
                 <div id='social-media' className='z-10 flex gap-2 w-1/3 justify-center'>
                     <a href="#">
-                        <img className='z-10 w-8 font-bold hover:scale-125' src="public/assets/img/instagram.png" alt="Ícone com link para Instagram da empresa." />
+                        <img className='z-10 w-8 font-bold hover:scale-125' src="./public/assets/img/instagram.png" alt="Ícone com link para Instagram da empresa." />
                     </a>
                     <a href="#">
-                        <img className='z-10 w-8 font-bold hover:scale-125 rounded-xl' src="public/assets/img/twitter.png" alt="Ícone com link para Twitter/X da empresa." />
+                        <img className='z-10 w-8 font-bold hover:scale-125 rounded-xl' src="/public/assets/img/twitter.png" alt="Ícone com link para Twitter/X da empresa." />
                     </a>
                     <a href="#">
                         <img className='z-10 w-8 font-bold hover:scale-125 rounded-xl' src="public/assets/img/facebook.png" alt="Ícone com link para Facebook da empresa." />
