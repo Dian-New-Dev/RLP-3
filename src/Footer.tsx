@@ -14,10 +14,10 @@ const Footer: React.FC = () => {
                         <img className='z-10 w-8 font-bold hover:scale-125' src="./public/assets/img/instagram.png" alt="Ícone com link para Instagram da empresa." />
                     </a>
                     <a href="#">
-                        <img className='z-10 w-8 font-bold hover:scale-125 rounded-xl' src="/public/assets/img/twitter.png" alt="Ícone com link para Twitter/X da empresa." />
+                        <img className='z-10 w-8 font-bold hover:scale-125 rounded-xl' src="./public/assets/img/twitter.png" alt="Ícone com link para Twitter/X da empresa." />
                     </a>
                     <a href="#">
-                        <img className='z-10 w-8 font-bold hover:scale-125 rounded-xl' src="public/assets/img/facebook.png" alt="Ícone com link para Facebook da empresa." />
+                        <img className='z-10 w-8 font-bold hover:scale-125 rounded-xl' src="./public/assets/img/facebook.png" alt="Ícone com link para Facebook da empresa." />
                     </a>
                 </div>
 
