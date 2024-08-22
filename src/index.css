@@ -77,7 +77,7 @@ p {
 
 .blended-bg {
     background-color: #1f2937;
-    background-image: url('public/assets/img/lines-transformed.jpeg');
+    background-image: url('/public/assets/img/lines-transformed.jpeg');
     background-blend-mode: lighten;
     background-size: cover;
     background-position: 10% 0%;
