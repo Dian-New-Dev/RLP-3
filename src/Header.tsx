@@ -42,7 +42,7 @@ const [larguraDaTela, setLarguraDaTela] = useState<number>(document.documentElem
     //return
 
     return (
-        <div className='z-50 relative '>
+        <div id="A" className='z-50 relative '>
             {abriuNoMobile ? <HeaderMobile larguraDaTela={larguraDaTela} /> : <HeaderDesktop />}
         </div>
 

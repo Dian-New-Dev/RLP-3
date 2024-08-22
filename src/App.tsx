@@ -9,7 +9,7 @@ import Footer from './Footer';
 
 const App: React.FC = () => {
     return (
-        <div className='bg-gray-800'>
+        <div className='bg-gray-800 scroll-smooth'>
             <Header />
 
             <Hero />

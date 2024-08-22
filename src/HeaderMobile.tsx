@@ -63,12 +63,12 @@ const HeaderMobile: React.FC<HeaderMobileProps> = ({ larguraDaTela }) => {
                 className={`z-40 absolute w-full h-screen top-0 left-0 flex flex-col gap-5 p-8 pt-20 bg-gray-800/100 font-bold hamburguer-transition`}
                 style={{left: `${posicaoEsquerda}px` }}
                 >
-                    <a className='z-40 text-3xl font-normal text-sky-200' href="#A">Início</a>
-                    <a className='z-40 text-3xl font-normal text-sky-200' href="#B">Sobre</a>
-                    <a className='z-40 text-3xl font-normal text-sky-200' href="#C">Modalidades</a>
-                    <a className='z-40 text-3xl font-normal text-sky-200' href="#D">Galeria</a>
-                    <a className='z-40 text-3xl font-normal text-sky-200' href="#E">Depoimentos</a>
-                    <a className='z-40 text-3xl font-normal text-sky-200' href="#F">FAQ</a>
+                    <a onClick={abrirMenu} className='z-40 text-3xl font-normal text-sky-200' href="#A">Início</a>
+                    <a onClick={abrirMenu} className='z-40 text-3xl font-normal text-sky-200' href="#B">Sobre</a>
+                    <a onClick={abrirMenu} className='z-40 text-3xl font-normal text-sky-200' href="#C">Modalidades</a>
+                    <a onClick={abrirMenu} className='z-40 text-3xl font-normal text-sky-200' href="#D">Galeria</a>
+                    <a onClick={abrirMenu} className='z-40 text-3xl font-normal text-sky-200' href="#E">Depoimentos</a>
+                    <a onClick={abrirMenu} className='z-40 text-3xl font-normal text-sky-200' href="#F">FAQ</a>
                 </div>
 
             </div> 

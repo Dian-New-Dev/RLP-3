@@ -8,7 +8,7 @@ const Depoimentos: React.FC = () => {
 
 
     return (
-        <div className='z-10 p-8'>
+        <div id="E" className='z-10 p-8'>
             <div className='z-10 w-full flex justify-end'>
                 <div id='h3' className='z-10 text-sky-100 font-bold flex relative border-b-4 border-r-4 px-4 py-4 border-amber-600 items-start text-right w-44 lg:scale-150 origin-top-right'>
                     <h3 className='z-10 w-[100%]  text-2xl'>... e Histórias Para Recordar</h3>

@@ -47,7 +47,7 @@ const reviews = [{
 	export default function DepoimentosData() {
 		const listaDeAnálises = reviews.map(analises =>
 
-				<div className="z-10 flex flex-col gap-4 bg-sky-100/75 mb-4 p-8 rounded-lg border border-gray-300 w-[ful] largura-minima-400px esconder-scrollbar">
+				<div className="z-10 flex flex-col gap-4 bg-sky-100/75 mb-4 p-8 rounded-lg border border-gray-300 w-[ful] largura-minima-400px esconder-scrollbar hover:scale-105">
 					<div className="z-10 flex gap-4">
 						<div>
 							<img className="z-10 rounded-full w-[75px]" src={analises.img} alt={analises.nome} />
@@ -63,7 +63,7 @@ const reviews = [{
 					</div>
 
 					<div>
-						<p className="z-10 text-sm text-justify">{analises.depoimento}</p>
+						<p className="z-10 text-sm text-justify text-gray-700">{analises.depoimento}</p>
 					</div>
 
 				</div>

@@ -27,12 +27,12 @@ const HeaderDesktop: React.FC = () => {
     return (
         <div>
             <div id='header-desktop' className='z-50 p-8 fixed w-full flex items-center justify-center gap-8'>
-                <a className='text-sky-200 font-semibold' href="#A">Início</a>
-                <a className='text-sky-200 font-semibold' href="#B">Sobre</a>
-                <a className='text-sky-200 font-semibold' href="#C">Modalidades</a>
-                <a className='text-sky-200 font-semibold' href="#D">Galeria</a>
-                <a className='text-sky-200 font-semibold' href="#E">Depoimentos</a>
-                <a className='text-sky-200 font-semibold' href="#F">FAQ</a>
+                <a className='text-sky-200 font-semibold hover:scale-125 hover:text-amber-400' href="#A">Início</a>
+                <a className='text-sky-200 font-semibold hover:scale-125 hover:text-amber-400' href="#B">Sobre</a>
+                <a className='text-sky-200 font-semibold hover:scale-125 hover:text-amber-400' href="#C">Modalidades</a>
+                <a className='text-sky-200 font-semibold hover:scale-125 hover:text-amber-400' href="#D">Galeria</a>
+                <a className='text-sky-200 font-semibold hover:scale-125 hover:text-amber-400' href="#E">Depoimentos</a>
+                <a className='text-sky-200 font-semibold hover:scale-125 hover:text-amber-400' href="#F">FAQ</a>
             </div>
 
             <div className={`z-40 w-full fixed top-0 left-0 p-10 transicao-gradiente-desktop ${rolouScroll ? 'gradiente' : 'sem-gradiente'}`}></div>

@@ -8,25 +8,25 @@ const Footer: React.FC = () => {
                 <h6 className='z-10 text-sm font-normal italic'>Sêneca</h6>
             </div>
 
-            <div className='z-10 flex gap-4 items-center p-4'>
-                <div id='social-media' className='z-10 flex gap-2 w-1/3'>
+            <div className='z-10 flex gap-4 items-center p-4 w-full max-w-[1280px] mx-auto'>
+                <div id='social-media' className='z-10 flex gap-2 w-1/3 justify-center'>
                     <a href="#">
-                        <img className='z-10 w-8' src="public/assets/img/instagram.png" alt="Ícone com link para Instagram da empresa." />
+                        <img className='z-10 w-8 font-bold hover:scale-125' src="public/assets/img/instagram.png" alt="Ícone com link para Instagram da empresa." />
                     </a>
                     <a href="#">
-                        <img className='z-10 w-8' src="public/assets/img/twitter.png" alt="Ícone com link para Twitter/X da empresa." />
+                        <img className='z-10 w-8 font-bold hover:scale-125 rounded-xl' src="public/assets/img/twitter.png" alt="Ícone com link para Twitter/X da empresa." />
                     </a>
                     <a href="#">
-                        <img className='z-10 w-8' src="public/assets/img/facebook.png" alt="Ícone com link para Facebook da empresa." />
+                        <img className='z-10 w-8 font-bold hover:scale-125 rounded-xl' src="public/assets/img/facebook.png" alt="Ícone com link para Facebook da empresa." />
                     </a>
                 </div>
 
 
-                <div className='z-10 flex gap-2 w-1/3 text-sm leading-3'>
-                    <a href="#">Termos e Condições</a>
+                <div className='z-10 flex gap-2 w-1/3 text-sm leading-3 justify-center'>
+                    <a className='hover:scale-125 hover:text-amber-400' href="#">Termos e Condições</a>
                 </div>
 
-                <div className='z-10 flex gap-2 w-1/3 text-sm leading-3'>
+                <div className='z-10 flex gap-2 w-1/3 text-sm leading-3 justify-center'>
                     <p>Página Desenvolvida por Diego Antunes</p>
                 </div>
 
