@@ -14,16 +14,22 @@ const App: React.FC = () => {
 
             <Hero />
 
-            <Sobre />
+            <div className='relative p-0 sm:p-8 lg:p-16 flex flex-col gap-8 lg:gap-16 w-full max-w-[1440px] mx-auto'>
+                <div className='z-0 opacity-25 absolute top-0 left-0 w-full h-full blended-bg '></div>
+                <Sobre />
 
-            <Modalidades />
+                <Modalidades />
 
-            <div className='bg-galeria'>
+            </div>
 
-                <Galeria />
+            <div className='w-full h-full bg-galeria'>
+                <div className='relative p-0 lg:p-16 w-full max-w-[1440px] mx-auto'>
 
-                <Depoimentos />
+                    <Galeria />
 
+                    <Depoimentos />
+
+                </div>
             </div>
 
             <Footer />

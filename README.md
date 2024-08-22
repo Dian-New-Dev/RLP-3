@@ -161,3 +161,7 @@ Se você precisar cancelar ou remarcar, entre em contato conosco com pelo menos 
 
 * Uso de map para renderizar conteúdo repetitivo;
 * Alternar entre Menu Mobile e Menu Desktop via operador tenário
+* Uso de setInterval + useEffect para alternar imagens de galeria
+* Todo projeto começa com uma regra css de min-width: 0, pois é boa prática;
+* Contudo, em divs onde haverá carrossel ou slider vertical, deve-se
+abrir uma exceção no min-width: 0.

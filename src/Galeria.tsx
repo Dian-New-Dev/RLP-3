@@ -23,41 +23,41 @@ const [contador, setContador] = useState(1);
     const src = `/public/assets/img/galeria${numeroDoSrc}.jpg`
 
     return (
-        <div id='modalidades' className=' text-gray-700 font-bold p-8 flex flex-col gap-8 border border-b-0 border-t-0 border-gray-90'>
-            <div id='h3' className='flex relative border-b-4 border-l-4 px-4 py-4 border-amber-600 items-start w-44'>
-                <h3 className='w-[80%] z-10 text-2xl'>Emoções Para Toda a Vida...</h3>
-                <img className='absolute w-[80px] pl-[20px] z-0 opacity-100 bottom-[10px] left-[90px]' src="public/assets/img/plane.svg" alt="Imagem de fundo na forma de um avião" />
+        <div id='modalidades' className='z-10 text-sky-100 font-bold p-8 flex flex-col gap-8 lg:gap-32 mx-auto'>
+            <div id='h3' className='z-10 flex relative border-b-4 border-l-4 px-4 py-4 border-amber-600 items-start w-44 scale-100 lg:scale-150 origin-top-left'>
+                <h3 className='z-10 w-[80%] text-2xl'>Emoções Para Toda a Vida...</h3>
+                <img className='z-10 absolute w-[80px] pl-[20px] opacity-100 bottom-[10px] left-[90px]' src="public/assets/img/plane.svg" alt="Imagem de fundo na forma de um avião" />
             </div>
 
-            <div className='w-full max-w-[600px] p-1 bg-amber-600 rounded-lg'>
+            <div className='z-10 w-full max-w-[600px] p-1 bg-amber-600 rounded-lg mx-auto esconder-scrollbar'>
 
-                <div className='w-full overflow-scroll flex snap-x snap-mandatory'>
-                    <img className='snap-center w-[600px] largura-minima-padrao' src={src} alt="Fotografia de " />
+                <div className='z-10 w-full overflow-scroll flex snap-x snap-mandatory esconder-scrollbar'>
+                    <img className='z-10 snap-center w-[600px] largura-minima-padrao' src={src} alt="Fotografia da galeria" />
                 </div>
 
-                <div className='flex h-full'>
-                    <div className='flex items-center gap-2 p-2 w-1/2  bg-gray-700 text-sky-100 font-normal'>
-                        <img className='w-[25px] h-[30px]' src="public/assets/img/imagem.png" alt="Ícone de fotos" />
+                <div className='z-10 flex h-full'>
+                    <div className='z-10 flex items-center gap-2 p-2 w-1/2  bg-gray-700 text-sky-100 font-normal'>
+                        <img className='z-10 w-[25px] h-[30px]' src="public/assets/img/imagem.png" alt="Ícone de fotos" />
                         <p>{contadorDeImagems}/5</p>
                     </div>
-                    <div className='w-full p-2'>
+                    <div className='z-10 w-full p-2'>
                         {
                             (() => {
                                 switch(contadorDeImagems) {
                                     case "1":
-                                        return <p className='font-medium italic'>Diversão para toda a família.</p>
+                                        return <p className='z-10 font-medium italic'>Diversão para toda a família.</p>
 
                                     case "2":
-                                        return <p className='font-medium italic'>Equipamento de ponta: aventura com segurança.</p>
+                                        return <p className='z-10 font-medium italic'>Equipamento de ponta: aventura com segurança.</p>
 
                                     case "3":
-                                        return <p className='font-medium italic'>Instrutores capacitados e parceiros.</p>
+                                        return <p className='z-10 font-medium italic'>Instrutores capacitados e parceiros.</p>
 
                                     case "4":
-                                        return <p className='font-medium italic'>Os aviões mais seguros do mercado.</p>
+                                        return <p className='z-10 font-medium italic'>Os aviões mais seguros do mercado.</p>
 
                                     case "5":
-                                        return <p className='font-medium italic'>Área de pouso segura e espaçosa.</p>
+                                        return <p className='z-10 font-medium italic'>Área de pouso segura e espaçosa.</p>
             
                                     default:
                                         return null;

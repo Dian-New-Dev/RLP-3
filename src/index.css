@@ -38,6 +38,11 @@ p {
     transition: opacity 0.7s ease;
 }
 
+.transicao-gradiente-desktop {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.342) 0%, rgba(0, 0, 0, 0.767) 50%, rgba(0, 0, 0, 0.849) 75%);
+    transition: opacity 0.7s ease;
+}
+
 .sem-gradiente {
     opacity: 0;
 }
@@ -55,8 +60,11 @@ p {
 }
 
 .bg-galeria {
-    background-image: url('/public/assets/img/galeria.jpg');
-    background-size: cover;
+    background-image: url('/public/assets/img/galeriaa.jpg');
+    background-size: 100%;
+    background-position: 80% 0%;
+    background-color: #1173fc52;
+    background-blend-mode: multiply;
 }
 
 .largura-minima-padrao {
@@ -65,4 +73,21 @@ p {
 
 .largura-minima-400px {
     min-width: 300px;
+}
+
+.blended-bg {
+    background-color: #1f2937;
+    background-image: url('public/assets/img/lines-transformed.jpeg');
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-position: 10% 0%;
+    transform: rotateY(180deg);
+}
+
+.esconder-scrollbar {
+    scrollbar-width: none;
+}
+
+.esconder-scrollbar::-webkit-scrollbar {
+    display: none;
 }

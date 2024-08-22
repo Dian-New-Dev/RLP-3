@@ -47,14 +47,14 @@ const reviews = [{
 	export default function DepoimentosData() {
 		const listaDeAnálises = reviews.map(analises =>
 
-				<div className="flex flex-col gap-4 bg-sky-100/75 mb-4 p-8 rounded-lg border border-gray-300 w-[ful] largura-minima-400px">
-					<div className="flex gap-4">
+				<div className="z-10 flex flex-col gap-4 bg-sky-100/75 mb-4 p-8 rounded-lg border border-gray-300 w-[ful] largura-minima-400px esconder-scrollbar">
+					<div className="z-10 flex gap-4">
 						<div>
-							<img className="rounded-full w-[75px]" src={analises.img} alt={analises.nome} />
+							<img className="z-10 rounded-full w-[75px]" src={analises.img} alt={analises.nome} />
 						</div>
-						<div className="flex flex-col justify-center">
-							<h4 className="font-bold text-md">{analises.nome}</h4>
-							<h6 className="font-normal text-sm italic">{analises.data}</h6>
+						<div className="z-10 flex flex-col justify-center">
+							<h4 className="z-10 font-bold text-md">{analises.nome}</h4>
+							<h6 className="z-10 font-normal text-sm italic">{analises.data}</h6>
 						</div>
 					</div>
 
@@ -63,12 +63,12 @@ const reviews = [{
 					</div>
 
 					<div>
-						<p className="text-sm text-justify">{analises.depoimento}</p>
+						<p className="z-10 text-sm text-justify">{analises.depoimento}</p>
 					</div>
 
 				</div>
 
 		);
 		
-		return <div className="flex gap-4 overflow-scroll border p-8 rounded-lg bg-sky-100/50 ">{listaDeAnálises}</div>;
+		return <div className="z-10 flex gap-4 overflow-x-scroll border p-8 rounded-lg bg-sky-100/50 ">{listaDeAnálises}</div>;
   	}
