@@ -190,13 +190,13 @@ fonte:https://dev.to/rashidshamloo/deploying-vite-react-app-to-github-pages-35hf
 
 5. git push
 
-* Dois problemas surgiram após fazer o deploy:
+* Três problemas surgiram após fazer o deploy:
 
 1. Todas as imagens da página não estavam carregando
-
-Solução encontrada: 
 
 2. npm run dev deixou de funcionar, retornando o seguinte erro:
 
 error when starting dev server:
 Error: EPERM: operation not permitted, rmdir 'C:\Users\user\Documents\PMJ\React\RLP-3\node_modules\.vite\deps'
+
+3. O deploy foi feito no github pages na branch gh-pages, a qual não existe localmente e não acho forma de acessá-la.
