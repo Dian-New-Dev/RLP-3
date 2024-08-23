@@ -193,10 +193,18 @@ fonte:https://dev.to/rashidshamloo/deploying-vite-react-app-to-github-pages-35hf
 * Três problemas surgiram após fazer o deploy:
 
 1. Todas as imagens da página não estavam carregando
+- Solução: aparentemente eu devo colocar "./" antes do path para imagens e vídeos. Algo relacionado ao fato de minhas imagens estarem dentro de public/assets ao invés de dentro do src. Também criei um arquivo .env na pasta root, com uma única linha: "PUBLIC_URL=.".
 
-2. npm run dev deixou de funcionar, retornando o seguinte erro:
+2. O deploy foi feito no github pages na branch gh-pages, a qual não existe localmente e não acho forma de acessá-la.
+- Solução: descobri, após alguma pesquisa, que isso é normal. "gh-pages" serve apenas para deploy. Após o deploy, o workflow segue assim:
+
+    alterações no main branch => git push => npm run deploy
+
+3. npm run dev deixou de funcionar, retornando o seguinte erro:
 
 error when starting dev server:
 Error: EPERM: operation not permitted, rmdir 'C:\Users\user\Documents\PMJ\React\RLP-3\node_modules\.vite\deps'
 
-3. O deploy foi feito no github pages na branch gh-pages, a qual não existe localmente e não acho forma de acessá-la. Descobri, após alguma pesquisa, que isso é normal. gh-pages serve apenas para deploy.
+- O que tentei: rodar o terminal como adm. Nada.
+
+- Solução: aparentemente, precisei a apagar a pasta .devs manualmente.
