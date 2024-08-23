@@ -57,7 +57,7 @@ const HeaderMobile: React.FC<HeaderMobileProps> = ({ larguraDaTela }) => {
                     <div className='z-50 w-8 h-0.5 bg-sky-200'></div>
                 </button>
 
-            <img className='z-50 px-8 py-5 absolute top-0 right-0 w-[100px] scale-[1]' src="/public/assets/img/logo.png" alt="Logo da empresa" />
+            <img className='z-50 px-8 py-5 absolute top-0 right-0 w-[100px] scale-[1]' src="./RLP-3/logo.png" alt="Logao da empresa" />
 
                 <div 
                 className={`z-40 absolute w-full h-screen top-0 left-0 flex flex-col gap-5 p-8 pt-20 bg-gray-800/100 font-bold hamburguer-transition`}
