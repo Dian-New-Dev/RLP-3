@@ -197,8 +197,6 @@ fonte:https://dev.to/rashidshamloo/deploying-vite-react-app-to-github-pages-35hf
 
   src={"./assets/img/nomeDaImagem.png"} => deve-se ter chaves, e o path deve começar em assets, não em public.
 
-. Também criei um arquivo .env na pasta root, com uma única linha: "PUBLIC_URL=.".
-
 2. O deploy foi feito no github pages na branch gh-pages, a qual não existe localmente e não acho forma de acessá-la.
 - Solução: descobri, após alguma pesquisa, que isso é normal. "gh-pages" serve apenas para deploy. Após o deploy, o workflow segue assim:
 
