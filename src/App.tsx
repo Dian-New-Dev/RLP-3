@@ -8,7 +8,7 @@ import Depoimentos from './Depoimentos';
 import Footer from './Footer';
 
 const App: React.FC = () => {
-    console.log('kk eae men logdasdasdo')
+    console.log('a confirmação')
     return (
         <div className='bg-gray-800 scroll-smooth'>
             <Header />

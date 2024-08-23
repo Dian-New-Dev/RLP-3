@@ -193,7 +193,11 @@ fonte:https://dev.to/rashidshamloo/deploying-vite-react-app-to-github-pages-35hf
 * Três problemas surgiram após fazer o deploy:
 
 1. Todas as imagens da página não estavam carregando
-- Solução: aparentemente eu devo colocar "./" antes do path para imagens e vídeos. Algo relacionado ao fato de minhas imagens estarem dentro de public/assets ao invés de dentro do src. Também criei um arquivo .env na pasta root, com uma única linha: "PUBLIC_URL=.".
+- Solução: aparentemente eu devo colocar "./" antes do path para imagens e vídeos quando estão direto no CSS, e quando estão em JSX é preciso usar
+
+  src={"./assets/img/nomeDaImagem.png"} => deve-se ter chaves, e o path deve começar em assets, não em public.
+
+. Também criei um arquivo .env na pasta root, com uma única linha: "PUBLIC_URL=.".
 
 2. O deploy foi feito no github pages na branch gh-pages, a qual não existe localmente e não acho forma de acessá-la.
 - Solução: descobri, após alguma pesquisa, que isso é normal. "gh-pages" serve apenas para deploy. Após o deploy, o workflow segue assim:

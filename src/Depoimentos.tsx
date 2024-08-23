@@ -12,7 +12,7 @@ const Depoimentos: React.FC = () => {
             <div className='z-10 w-full flex justify-end'>
                 <div id='h3' className='z-10 text-sky-100 font-bold flex relative border-b-4 border-r-4 px-4 py-4 border-amber-600 items-start text-right w-44 lg:scale-150 origin-top-right'>
                     <h3 className='z-10 w-[100%]  text-2xl'>... e Histórias Para Recordar</h3>
-                    <img className='z-10 absolute w-[80px] pl-[20px]  opacity-100 bottom-2 right-[110px] rotate-[270deg]' src="public/assets/img/plane.svg" alt="Imagem de fundo na forma de um avião" />
+                    <img className='z-10 absolute w-[80px] pl-[20px]  opacity-100 bottom-2 right-[110px] rotate-[270deg]' src={"./assets/img/plane.svg"} alt="Imagem de fundo na forma de um avião" />
                 </div>
             </div>
 
